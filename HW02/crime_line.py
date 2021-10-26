@@ -54,6 +54,7 @@ plt.plot(miami_xaxis, miami_yaxis, color = '#D9514EFF', marker = 'o' , linewidth
 plt.plot(tampa_xaxis, tampa_yaxis, color = '#2A2B2DFF', marker = 'o', linewidth = 3, label = 'Tampa')
 plt.tight_layout()
 plt.legend()
+plt.grid()
 plt.savefig('floridamurderrates.jpg')
 
 plt.show()
