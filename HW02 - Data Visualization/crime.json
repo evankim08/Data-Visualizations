@@ -1,0 +1,828 @@
+{
+    "meta" : {
+      "view" : {
+        "id" : "kirw-4rbx",
+        "name" : "Murders, Violent Crime Rate, and Property Crime Rate (2005-present)",
+        "assetType" : "dataset",
+        "attribution" : "Federal Bureau of Investigation, Uniform Crime Reports as prepared by the National Archive of Criminal Justice Data",
+        "attributionLink" : "http://www.fbi.gov/stats-services/crimestats",
+        "averageRating" : 0,
+        "category" : "Public Safety and Preparedness",
+        "createdAt" : 1429819885,
+        "description" : "This data includes annual data on murder and non-negligent manslaughter, violent crime rates per 100,000 population, and property crime rates per 100,000 for New Orleans and the bench mark cities of Atlanta, Nashville, Oklahoma City, Tampa, Miami, Memphis, Raleigh, and Baton Rouge.",
+        "displayType" : "table",
+        "downloadCount" : 424539,
+        "hideFromCatalog" : false,
+        "hideFromDataJson" : false,
+        "indexUpdatedAt" : 1456425772,
+        "newBackend" : true,
+        "numberOfComments" : 0,
+        "oid" : 18206471,
+        "provenance" : "official",
+        "publicationAppendEnabled" : false,
+        "publicationDate" : 1456421964,
+        "publicationGroup" : 2716522,
+        "publicationStage" : "published",
+        "rowsUpdatedAt" : 1456421919,
+        "rowsUpdatedBy" : "ii98-542e",
+        "tableId" : 8402306,
+        "totalTimesRated" : 0,
+        "viewCount" : 3415,
+        "viewLastModified" : 1456421964,
+        "viewType" : "tabular",
+        "approvals" : [ {
+          "reviewedAt" : 1456421964,
+          "reviewedAutomatically" : true,
+          "state" : "approved",
+          "submissionId" : 701671,
+          "submissionObject" : "public_audience_request",
+          "submissionOutcome" : "change_audience",
+          "submittedAt" : 1456421964,
+          "workflowId" : 2032,
+          "submissionDetails" : {
+            "permissionType" : "READ"
+          },
+          "submissionOutcomeApplication" : {
+            "failureCount" : 0,
+            "status" : "success"
+          },
+          "submitter" : {
+            "id" : "ii98-542e",
+            "displayName" : "mschigoda"
+          }
+        } ],
+        "columns" : [ {
+          "id" : -1,
+          "name" : "sid",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":sid",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "id",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":id",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "position",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":position",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "created_at",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":created_at",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "created_meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":created_meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "updated_at",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":updated_at",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "updated_meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":updated_meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : -1,
+          "name" : "meta",
+          "dataTypeName" : "meta_data",
+          "fieldName" : ":meta",
+          "position" : 0,
+          "renderTypeName" : "meta_data",
+          "format" : { },
+          "flags" : [ "hidden" ]
+        }, {
+          "id" : 244114737,
+          "name" : "RowID",
+          "dataTypeName" : "text",
+          "fieldName" : "rowid",
+          "position" : 1,
+          "renderTypeName" : "text",
+          "tableColumnId" : 27849418,
+          "width" : 160,
+          "cachedContents" : {
+            "non_null" : 306,
+            "largest" : "Tampa, FLViolent crime rate (per 100,000 population)2014",
+            "null" : 0,
+            "top" : [ {
+              "item" : "Oklahoma City, OKViolent crime rate (per 100,000 population)2014",
+              "count" : 20
+            }, {
+              "item" : "Memphis, TNViolent crime rate (per 100,000 population)2014",
+              "count" : 19
+            }, {
+              "item" : "Nashville, TNViolent crime rate (per 100,000 population)2014",
+              "count" : 18
+            }, {
+              "item" : "Raleigh, NCViolent crime rate (per 100,000 population)2014",
+              "count" : 17
+            }, {
+              "item" : "Benchmark AverageViolent crime rate (per 100,000 population)2014",
+              "count" : 16
+            }, {
+              "item" : "Miami, FLProperty crime rate (per 100,000 population)2014",
+              "count" : 15
+            }, {
+              "item" : "Tampa, FLProperty crime rate (per 100,000 population)2014",
+              "count" : 14
+            }, {
+              "item" : "Atlanta, GAProperty crime rate (per 100,000 population)2014",
+              "count" : 13
+            }, {
+              "item" : "Louisville Metro6, 7Property crime rate (per 100,000 population)2014",
+              "count" : 12
+            }, {
+              "item" : "Baton Rouge, LAProperty crime rate (per 100,000 population)2014",
+              "count" : 11
+            }, {
+              "item" : "New Orleans, LAProperty crime rate (per 100,000 population)2014",
+              "count" : 10
+            }, {
+              "item" : "Oklahoma City, OKProperty crime rate (per 100,000 population)2014",
+              "count" : 9
+            }, {
+              "item" : "Memphis, TNProperty crime rate (per 100,000 population)2014",
+              "count" : 8
+            }, {
+              "item" : "Nashville, TNProperty crime rate (per 100,000 population)2014",
+              "count" : 7
+            }, {
+              "item" : "Raleigh, NCProperty crime rate (per 100,000 population)2014",
+              "count" : 6
+            }, {
+              "item" : "Benchmark AverageProperty crime rate (per 100,000 population)2014",
+              "count" : 5
+            }, {
+              "item" : "New Orleans, LAProperty crime rate (per 100,000 population)2015",
+              "count" : 4
+            }, {
+              "item" : "New Orleans, LAViolent crime rate (per 100,000 population)2015",
+              "count" : 3
+            }, {
+              "item" : "New Orleans, LAMurder and nonnegligent manslaughter2015",
+              "count" : 2
+            } ],
+            "smallest" : "Atlanta, GAMurder and nonnegligent manslaughter2005"
+          },
+          "format" : {
+            "precisionStyle" : "standard",
+            "noCommas" : "false",
+            "align" : "right"
+          }
+        }, {
+          "id" : 244114738,
+          "name" : "Date",
+          "dataTypeName" : "calendar_date",
+          "fieldName" : "year",
+          "position" : 2,
+          "renderTypeName" : "calendar_date",
+          "tableColumnId" : 27849420,
+          "width" : 148,
+          "cachedContents" : {
+            "non_null" : 306,
+            "largest" : "2015-12-31T00:00:00",
+            "null" : 0,
+            "top" : [ {
+              "item" : "2005-12-31T00:00:00",
+              "count" : 20
+            }, {
+              "item" : "2006-12-31T00:00:00",
+              "count" : 19
+            }, {
+              "item" : "2007-12-31T00:00:00",
+              "count" : 18
+            }, {
+              "item" : "2008-12-31T00:00:00",
+              "count" : 17
+            }, {
+              "item" : "2009-12-31T00:00:00",
+              "count" : 16
+            }, {
+              "item" : "2010-12-31T00:00:00",
+              "count" : 15
+            }, {
+              "item" : "2011-12-31T00:00:00",
+              "count" : 14
+            }, {
+              "item" : "2012-12-31T00:00:00",
+              "count" : 13
+            }, {
+              "item" : "2013-12-31T00:00:00",
+              "count" : 12
+            }, {
+              "item" : "2014-12-31T00:00:00",
+              "count" : 11
+            }, {
+              "item" : "2015-12-31T00:00:00",
+              "count" : 10
+            } ],
+            "smallest" : "2005-12-31T00:00:00"
+          },
+          "format" : {
+            "view" : "date_y",
+            "align" : "left"
+          }
+        }, {
+          "id" : 244114739,
+          "name" : "Year",
+          "dataTypeName" : "number",
+          "fieldName" : "year2",
+          "position" : 3,
+          "renderTypeName" : "number",
+          "tableColumnId" : 27849422,
+          "width" : 160,
+          "cachedContents" : {
+            "non_null" : 306,
+            "average" : "2009.598039215686",
+            "largest" : "2015",
+            "null" : 0,
+            "top" : [ {
+              "item" : "2005",
+              "count" : 20
+            }, {
+              "item" : "2006",
+              "count" : 19
+            }, {
+              "item" : "2007",
+              "count" : 18
+            }, {
+              "item" : "2008",
+              "count" : 17
+            }, {
+              "item" : "2009",
+              "count" : 16
+            }, {
+              "item" : "2010",
+              "count" : 15
+            }, {
+              "item" : "2011",
+              "count" : 14
+            }, {
+              "item" : "2012",
+              "count" : 13
+            }, {
+              "item" : "2013",
+              "count" : 12
+            }, {
+              "item" : "2014",
+              "count" : 11
+            }, {
+              "item" : "2015",
+              "count" : 10
+            } ],
+            "smallest" : "2005",
+            "sum" : "614937"
+          },
+          "format" : {
+            "precisionStyle" : "standard",
+            "noCommas" : "true",
+            "align" : "right"
+          }
+        }, {
+          "id" : 244114740,
+          "name" : "Location",
+          "dataTypeName" : "text",
+          "fieldName" : "location",
+          "position" : 4,
+          "renderTypeName" : "text",
+          "tableColumnId" : 32420611,
+          "width" : 100,
+          "cachedContents" : {
+            "non_null" : 306,
+            "largest" : "Tampa, FL",
+            "null" : 0,
+            "top" : [ {
+              "item" : "Atlanta, GA",
+              "count" : 20
+            }, {
+              "item" : "Baton Rouge, LA",
+              "count" : 19
+            }, {
+              "item" : "Memphis, TN",
+              "count" : 18
+            }, {
+              "item" : "Miami, FL",
+              "count" : 17
+            }, {
+              "item" : "Nashville, TN",
+              "count" : 16
+            }, {
+              "item" : "New Orleans, LA",
+              "count" : 15
+            }, {
+              "item" : "Oklahoma City, OK",
+              "count" : 14
+            }, {
+              "item" : "Raleigh, NC",
+              "count" : 13
+            }, {
+              "item" : "Tampa, FL",
+              "count" : 12
+            }, {
+              "item" : "Benchmark Average",
+              "count" : 11
+            }, {
+              "item" : "Louisville Metro6, 7",
+              "count" : 10
+            } ],
+            "smallest" : "Atlanta, GA"
+          },
+          "format" : { }
+        }, {
+          "id" : 244114741,
+          "name" : "IndicatorName",
+          "dataTypeName" : "text",
+          "fieldName" : "indicator",
+          "position" : 5,
+          "renderTypeName" : "text",
+          "tableColumnId" : 27849419,
+          "width" : 208,
+          "cachedContents" : {
+            "non_null" : 306,
+            "largest" : "Violent crime rate (per 100,000 population)",
+            "null" : 0,
+            "top" : [ {
+              "item" : "Murder and nonnegligent manslaughter",
+              "count" : 20
+            }, {
+              "item" : "Property crime rate (per 100,000 population)",
+              "count" : 19
+            }, {
+              "item" : "Violent crime rate (per 100,000 population)",
+              "count" : 18
+            } ],
+            "smallest" : "Murder and nonnegligent manslaughter"
+          },
+          "format" : {
+            "align" : "left"
+          }
+        }, {
+          "id" : 244114742,
+          "name" : "IndicatorValue",
+          "dataTypeName" : "number",
+          "fieldName" : "total",
+          "position" : 6,
+          "renderTypeName" : "number",
+          "tableColumnId" : 27849421,
+          "width" : 160,
+          "cachedContents" : {
+            "non_null" : 300,
+            "average" : "2155.551134159767",
+            "largest" : "8369",
+            "null" : 6,
+            "top" : [ {
+              "item" : "4832.74723",
+              "count" : 20
+            }, {
+              "item" : "2427.728184",
+              "count" : 19
+            }, {
+              "item" : "5747.387001",
+              "count" : 18
+            }, {
+              "item" : "4185.270986",
+              "count" : 17
+            }, {
+              "item" : "4477.149969",
+              "count" : 16
+            }, {
+              "item" : "4231.839282",
+              "count" : 15
+            }, {
+              "item" : "4410.858044",
+              "count" : 14
+            }, {
+              "item" : "5988.041324",
+              "count" : 13
+            }, {
+              "item" : "3630.600489",
+              "count" : 12
+            }, {
+              "item" : "4436.846946",
+              "count" : 11
+            }, {
+              "item" : "3966.226062",
+              "count" : 10
+            }, {
+              "item" : "973.1473772",
+              "count" : 9
+            }, {
+              "item" : "164",
+              "count" : 8
+            } ],
+            "smallest" : "12",
+            "sum" : "646665.34024793"
+          },
+          "format" : {
+            "precisionStyle" : "standard",
+            "noCommas" : "false",
+            "align" : "right"
+          }
+        }, {
+          "id" : 244114743,
+          "name" : "Notes",
+          "dataTypeName" : "text",
+          "fieldName" : "notes",
+          "position" : 7,
+          "renderTypeName" : "text",
+          "tableColumnId" : 34634165,
+          "width" : 100,
+          "cachedContents" : {
+            "non_null" : 2,
+            "largest" : "Preliminary calculation using the 2014 population estimate released in 2015 from the Census Bureau (384,320)",
+            "null" : 304,
+            "top" : [ {
+              "item" : "Preliminary calculation using the 2014 population estimate released in 2015 from the Census Bureau (384,320)",
+              "count" : 20
+            } ],
+            "smallest" : "Preliminary calculation using the 2014 population estimate released in 2015 from the Census Bureau (384,320)"
+          },
+          "format" : { }
+        } ],
+        "grants" : [ {
+          "inherited" : false,
+          "type" : "viewer",
+          "flags" : [ "public" ]
+        } ],
+        "metadata" : {
+          "jsonQuery" : {
+            "order" : [ {
+              "ascending" : true,
+              "columnFieldName" : "year"
+            } ]
+          },
+          "rdfSubject" : "0",
+          "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+          "renderTypeConfig" : {
+            "visible" : {
+              "table" : true
+            }
+          }
+        },
+        "owner" : {
+          "id" : "ii98-542e",
+          "displayName" : "mschigoda",
+          "screenName" : "mschigoda",
+          "type" : "interactive",
+          "flags" : [ "mayBeStoriesCoOwner" ]
+        },
+        "query" : {
+          "orderBys" : [ {
+            "ascending" : true,
+            "expression" : {
+              "columnId" : 244114738,
+              "type" : "column"
+            }
+          } ]
+        },
+        "rights" : [ "read" ],
+        "tableAuthor" : {
+          "id" : "ii98-542e",
+          "displayName" : "mschigoda",
+          "screenName" : "mschigoda",
+          "type" : "interactive",
+          "flags" : [ "mayBeStoriesCoOwner" ]
+        },
+        "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+      }
+    },
+    "data" : [ [ "row-nran-e8q3-nkew", "00000000-0000-0000-A3E5-9F1E706912ED", 0, 1456421978, null, 1456421978, null, "{ }", "Oklahoma City, OKViolent crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Oklahoma City, OK", "Violent crime rate (per 100,000 population)", "854", null ]
+  , [ "row-iigv-3pw2_64wd", "00000000-0000-0000-4B7A-E0EF86B065A9", 0, 1456421978, null, 1456421978, null, "{ }", "Nashville, TNViolent crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Nashville, TN", "Violent crime rate (per 100,000 population)", "1611", null ]
+  , [ "row-4vwg_numq.znhz", "00000000-0000-0000-320B-A3D82268AFA3", 0, 1456421978, null, 1456421978, null, "{ }", "Raleigh, NCViolent crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Raleigh, NC", "Violent crime rate (per 100,000 population)", "618", null ]
+  , [ "row-ep42_63n6-jgt9", "00000000-0000-0000-6DE5-D6D134AC4A33", 0, 1456421978, null, 1456421978, null, "{ }", "Nashville, TNMurder and nonnegligent manslaughter2005", "2005-12-31T00:00:00", "2005", "Nashville, TN", "Murder and nonnegligent manslaughter", "95", null ]
+  , [ "row-qf5y.ukkg-kwu2", "00000000-0000-0000-1561-F96F79D5C872", 0, 1456421978, null, 1456421978, null, "{ }", "Memphis, TNMurder and nonnegligent manslaughter2005", "2005-12-31T00:00:00", "2005", "Memphis, TN", "Murder and nonnegligent manslaughter", "138", null ]
+  , [ "row-5pja-bq4x-ib2p", "00000000-0000-0000-5E3B-00C2500C37D4", 0, 1456421978, null, 1456421978, null, "{ }", "Memphis, TNViolent crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Memphis, TN", "Violent crime rate (per 100,000 population)", "1861", null ]
+  , [ "row-b3fn~jstj~28zp", "00000000-0000-0000-444C-93DC7CDC4912", 0, 1456421978, null, 1456421978, null, "{ }", "Nashville, TNProperty crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Nashville, TN", "Property crime rate (per 100,000 population)", "6426", null ]
+  , [ "row-feiw_yrm5_5wkv", "00000000-0000-0000-7BEC-4BD3E479CDAA", 0, 1456421978, null, 1456421978, null, "{ }", "Benchmark AverageMurder and nonnegligent manslaughter2005", "2005-12-31T00:00:00", "2005", "Benchmark Average", "Murder and nonnegligent manslaughter", "64", null ]
+  , [ "row-tvdg_kx9t_2p4m", "00000000-0000-0000-921B-83A7C8434904", 0, 1456421978, null, 1456421978, null, "{ }", "Tampa, FLMurder and nonnegligent manslaughter2005", "2005-12-31T00:00:00", "2005", "Tampa, FL", "Murder and nonnegligent manslaughter", "20", null ]
+  , [ "row-86d6.s3zd.ruaq", "00000000-0000-0000-D592-097CF12409F2", 0, 1456421978, null, 1456421978, null, "{ }", "New Orleans, LAProperty crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "New Orleans, LA", "Property crime rate (per 100,000 population)", null, null ]
+  , [ "row-bmer.hc53-y35u", "00000000-0000-0000-D500-2E9DD43FAC8B", 0, 1456421978, null, 1456421978, null, "{ }", "Raleigh, NCMurder and nonnegligent manslaughter2005", "2005-12-31T00:00:00", "2005", "Raleigh, NC", "Murder and nonnegligent manslaughter", "20", null ]
+  , [ "row-yfir_trmg~fnki", "00000000-0000-0000-5806-26FCFB3B219C", 0, 1456421978, null, 1456421978, null, "{ }", "Raleigh, NCProperty crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Raleigh, NC", "Property crime rate (per 100,000 population)", "3773", null ]
+  , [ "row-68ir.snrh_p2nc", "00000000-0000-0000-E591-A38FDFDC0249", 0, 1456421978, null, 1456421978, null, "{ }", "Oklahoma City, OKMurder and nonnegligent manslaughter2005", "2005-12-31T00:00:00", "2005", "Oklahoma City, OK", "Murder and nonnegligent manslaughter", "54", null ]
+  , [ "row-bps6-b75q_qs2j", "00000000-0000-0000-20A2-E51E1DC77B45", 0, 1456421978, null, 1456421978, null, "{ }", "Miami, FLProperty crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Miami, FL", "Property crime rate (per 100,000 population)", "6006", null ]
+  , [ "row-iz3i-ngqv_9mti", "00000000-0000-0000-494F-AFADE6A151A2", 0, 1456421978, null, 1456421978, null, "{ }", "Baton Rouge, LAViolent crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Baton Rouge, LA", "Violent crime rate (per 100,000 population)", "1202", null ]
+  , [ "row-meay.p4ft~s78p", "00000000-0000-0000-3FDE-00CA62D91C3F", 0, 1456421978, null, 1456421978, null, "{ }", "Baton Rouge, LAProperty crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Baton Rouge, LA", "Property crime rate (per 100,000 population)", "6405", null ]
+  , [ "row-rqjm-utud~zt7g", "00000000-0000-0000-35BF-F8B8C4540AD6", 0, 1456421978, null, 1456421978, null, "{ }", "Tampa, FLProperty crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Tampa, FL", "Property crime rate (per 100,000 population)", "6161", null ]
+  , [ "row-rijw_2fyw~8y9s", "00000000-0000-0000-9D7D-105CE59FF7CB", 0, 1456421978, null, 1456421978, null, "{ }", "Miami, FLMurder and nonnegligent manslaughter2005", "2005-12-31T00:00:00", "2005", "Miami, FL", "Murder and nonnegligent manslaughter", "54", null ]
+  , [ "row-nbrp_dt6y_b43n", "00000000-0000-0000-F873-A212063C6EF9", 0, 1456421978, null, 1456421978, null, "{ }", "Atlanta, GAMurder and nonnegligent manslaughter2005", "2005-12-31T00:00:00", "2005", "Atlanta, GA", "Murder and nonnegligent manslaughter", "90", null ]
+  , [ "row-ba8k~9y8k_xeva", "00000000-0000-0000-8128-9E93DD75FFF4", 0, 1456421978, null, 1456421978, null, "{ }", "Baton Rouge, LAMurder and nonnegligent manslaughter2005", "2005-12-31T00:00:00", "2005", "Baton Rouge, LA", "Murder and nonnegligent manslaughter", "49", null ]
+  , [ "row-6axf-qwmk-srhy", "00000000-0000-0000-11EB-6D0036E5B370", 0, 1456421978, null, 1456421978, null, "{ }", "Memphis, TNProperty crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Memphis, TN", "Property crime rate (per 100,000 population)", "8369", null ]
+  , [ "row-uw74~q9ya.9sn6", "00000000-0000-0000-B68D-9BFF48005412", 0, 1456421978, null, 1456421978, null, "{ }", "New Orleans, LAViolent crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "New Orleans, LA", "Violent crime rate (per 100,000 population)", null, null ]
+  , [ "row-rfq2-2w8w.82hw", "00000000-0000-0000-09C8-4C8ECF27F7C3", 0, 1456421978, null, 1456421978, null, "{ }", "Benchmark AverageViolent crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Benchmark Average", "Violent crime rate (per 100,000 population)", "1354", null ]
+  , [ "row-ttrt-d5yg~j8tj", "00000000-0000-0000-ED56-0028CD28A6AE", 0, 1456421978, null, 1456421978, null, "{ }", "Atlanta, GAProperty crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Atlanta, GA", "Property crime rate (per 100,000 population)", "7290", null ]
+  , [ "row-9t9n-arev-hbkv", "00000000-0000-0000-0645-E479F643559D", 0, 1456421978, null, 1456421978, null, "{ }", "Oklahoma City, OKProperty crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Oklahoma City, OK", "Property crime rate (per 100,000 population)", "7927", null ]
+  , [ "row-uy3c_rtqm_zv6c", "00000000-0000-0000-AE40-289A993A1581", 0, 1456421978, null, 1456421978, null, "{ }", "Benchmark AverageProperty crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Benchmark Average", "Property crime rate (per 100,000 population)", "6545", null ]
+  , [ "row-gapd_aqet.vkgn", "00000000-0000-0000-5107-DCEF9700C5DE", 0, 1456421978, null, 1456421978, null, "{ }", "Miami, FLViolent crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Miami, FL", "Violent crime rate (per 100,000 population)", "1580", null ]
+  , [ "row-py7k_vpmj~j5di", "00000000-0000-0000-FB37-EEA4E934EC8B", 0, 1456421978, null, 1456421978, null, "{ }", "New Orleans, LAMurder and nonnegligent manslaughter2005", "2005-12-31T00:00:00", "2005", "New Orleans, LA", "Murder and nonnegligent manslaughter", null, null ]
+  , [ "row-wcy6_cy9x_8h96", "00000000-0000-0000-3412-A7C78F56B835", 0, 1456421978, null, 1456421978, null, "{ }", "Tampa, FLViolent crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Tampa, FL", "Violent crime rate (per 100,000 population)", "1431", null ]
+  , [ "row-seuh.btk2_rgcr", "00000000-0000-0000-79E5-EAAEE72AF315", 0, 1456421978, null, 1456421978, null, "{ }", "Atlanta, GAViolent crime rate (per 100,000 population)2005", "2005-12-31T00:00:00", "2005", "Atlanta, GA", "Violent crime rate (per 100,000 population)", "1675", null ]
+  , [ "row-ahvn_jd7i.xxj6", "00000000-0000-0000-D5A8-4CE356DF7E6A", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNMurder and nonnegligent manslaughter2009", "2009-12-31T00:00:00", "2009", "Memphis, TN", "Murder and nonnegligent manslaughter", "132", null ]
+  , [ "row-ie8u_p9b7_22za", "00000000-0000-0000-0870-94EB2FF1F3C7", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKMurder and nonnegligent manslaughter2011", "2011-12-31T00:00:00", "2011", "Oklahoma City, OK", "Murder and nonnegligent manslaughter", "58", null ]
+  , [ "row-jqxi_uepv-ywuf", "00000000-0000-0000-0781-1671DCF2AD24", 0, 1456421062, null, 1456421062, null, "{ }", "Louisville Metro6, 7Murder and nonnegligent manslaughter2014", "2014-12-31T00:00:00", "2014", "Louisville Metro6, 7", "Murder and nonnegligent manslaughter", "56", null ]
+  , [ "row-9vt8-s9ss-yype", "00000000-0000-0000-E1B9-F85CC7023FA8", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAViolent crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Baton Rouge, LA", "Violent crime rate (per 100,000 population)", "924.2023306", null ]
+  , [ "row-eymb_rcty-wn5a", "00000000-0000-0000-7462-1BD69F9406A2", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAMurder and nonnegligent manslaughter2010", "2010-12-31T00:00:00", "2010", "New Orleans, LA", "Murder and nonnegligent manslaughter", "175", null ]
+  , [ "row-nzaj.54wp.er6x", "00000000-0000-0000-7D64-C60871D6F711", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKProperty crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Oklahoma City, OK", "Property crime rate (per 100,000 population)", "5942", null ]
+  , [ "row-pgbg_numt-zuwt", "00000000-0000-0000-3088-9AF293E03A20", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNMurder and nonnegligent manslaughter2014", "2014-12-31T00:00:00", "2014", "Nashville, TN", "Murder and nonnegligent manslaughter", "41", null ]
+  , [ "row-dnh9~t5vg_yjwh", "00000000-0000-0000-2E4B-C71D719F4FBE", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKViolent crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Oklahoma City, OK", "Violent crime rate (per 100,000 population)", "930", null ]
+  , [ "row-6jn4.5y2a.ikyr", "00000000-0000-0000-15DC-D19F7C94BFD1", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNMurder and nonnegligent manslaughter2010", "2010-12-31T00:00:00", "2010", "Memphis, TN", "Murder and nonnegligent manslaughter", "89", null ]
+  , [ "row-bh5j~a2yx.r276", "00000000-0000-0000-D147-1EDEC5F67774", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAProperty crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Atlanta, GA", "Property crime rate (per 100,000 population)", "7333", null ]
+  , [ "row-xnyq-yrmr.ksqt", "00000000-0000-0000-6F5A-79C97C24E3AB", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLMurder and nonnegligent manslaughter2011", "2011-12-31T00:00:00", "2011", "Tampa, FL", "Murder and nonnegligent manslaughter", "28", null ]
+  , [ "row-qwci~yd98_nt2d", "00000000-0000-0000-8040-DE4112E1A816", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAProperty crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Baton Rouge, LA", "Property crime rate (per 100,000 population)", "5209", null ]
+  , [ "row-jc4y_284k.kcbu", "00000000-0000-0000-0310-23C3EF2DB117", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAViolent crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "New Orleans, LA", "Violent crime rate (per 100,000 population)", "786", null ]
+  , [ "row-ndki~efc4-9bqw", "00000000-0000-0000-854F-223ECBDA6C6D", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAProperty crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "New Orleans, LA", "Property crime rate (per 100,000 population)", "3772", null ]
+  , [ "row-4c7v.bb5d-qpva", "00000000-0000-0000-62FC-075B608DA9BC", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKProperty crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Oklahoma City, OK", "Property crime rate (per 100,000 population)", "5735", null ]
+  , [ "row-cy65_c5hk_3mhe", "00000000-0000-0000-2061-378FEEBEABF9", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCMurder and nonnegligent manslaughter2011", "2011-12-31T00:00:00", "2011", "Raleigh, NC", "Murder and nonnegligent manslaughter", "17", null ]
+  , [ "row-p5n7_aami_xzey", "00000000-0000-0000-20BD-780FC4F3F387", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNMurder and nonnegligent manslaughter2008", "2008-12-31T00:00:00", "2008", "Memphis, TN", "Murder and nonnegligent manslaughter", "138", null ]
+  , [ "row-4mru_4z7i.3sqy", "00000000-0000-0000-5D67-34882F93DE72", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLMurder and nonnegligent manslaughter2011", "2011-12-31T00:00:00", "2011", "Miami, FL", "Murder and nonnegligent manslaughter", "68", null ]
+  , [ "row-ubxp_tei9-y9gb", "00000000-0000-0000-8B22-5E7C3D88349B", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAMurder and nonnegligent manslaughter2014", "2014-12-31T00:00:00", "2014", "Baton Rouge, LA", "Murder and nonnegligent manslaughter", "53", null ]
+  , [ "row-438y.fs6c~p8ch", "00000000-0000-0000-228F-2708ADB80DD5", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAProperty crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Atlanta, GA", "Property crime rate (per 100,000 population)", "7084", null ]
+  , [ "row-9qp4-7z36.zzt2", "00000000-0000-0000-108F-57A8757693B0", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCMurder and nonnegligent manslaughter2012", "2012-12-31T00:00:00", "2012", "Raleigh, NC", "Murder and nonnegligent manslaughter", "17", null ]
+  , [ "row-ter7~pmtr-erve", "00000000-0000-0000-9868-839B30DECA9B", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAProperty crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "New Orleans, LA", "Property crime rate (per 100,000 population)", "3678", null ]
+  , [ "row-gigw-ne6x~s4se", "00000000-0000-0000-E0FA-A18AABFBD9AB", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNMurder and nonnegligent manslaughter2013", "2013-12-31T00:00:00", "2013", "Nashville, TN", "Murder and nonnegligent manslaughter", "35", null ]
+  , [ "row-bhzs_4644_4xgi", "00000000-0000-0000-E7B4-462C4E828A3E", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAProperty crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "New Orleans, LA", "Property crime rate (per 100,000 population)", "3846", null ]
+  , [ "row-8eqs_wevf-5mqa", "00000000-0000-0000-BD9E-6B7A80512B07", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLViolent crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Miami, FL", "Violent crime rate (per 100,000 population)", "1172", null ]
+  , [ "row-hbfj.bkbd~xvju", "00000000-0000-0000-43AE-53688CDFA85A", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNViolent crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Nashville, TN", "Violent crime rate (per 100,000 population)", "1389", null ]
+  , [ "row-xnfw-8wqj.w74h", "00000000-0000-0000-0238-B08805751B18", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNMurder and nonnegligent manslaughter2011", "2011-12-31T00:00:00", "2011", "Nashville, TN", "Murder and nonnegligent manslaughter", "50", null ]
+  , [ "row-3d6q.jdn3-7bv8", "00000000-0000-0000-6B5B-D2242FD7F6C8", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAMurder and nonnegligent manslaughter2011", "2011-12-31T00:00:00", "2011", "Baton Rouge, LA", "Murder and nonnegligent manslaughter", "64", null ]
+  , [ "row-9bza-ibbq~zggt", "00000000-0000-0000-ECD0-46E99A664291", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLMurder and nonnegligent manslaughter2012", "2012-12-31T00:00:00", "2012", "Tampa, FL", "Murder and nonnegligent manslaughter", "23", null ]
+  , [ "row-fhwm.wg4b-h6eh", "00000000-0000-0000-6CA2-F0CA3528A4AC", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNProperty crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Nashville, TN", "Property crime rate (per 100,000 population)", "5577", null ]
+  , [ "row-h4k7_e8bs-8w4u", "00000000-0000-0000-5005-F63086F46B66", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAMurder and nonnegligent manslaughter2014", "2014-12-31T00:00:00", "2014", "Atlanta, GA", "Murder and nonnegligent manslaughter", "93", null ]
+  , [ "row-gp5j-qrhf_z48u", "00000000-0000-0000-FD22-9067AAA339D9", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNProperty crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Nashville, TN", "Property crime rate (per 100,000 population)", "4998", null ]
+  , [ "row-5u4s-b5ry_shjr", "00000000-0000-0000-2619-E67FB9D2A4E7", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKMurder and nonnegligent manslaughter2007", "2007-12-31T00:00:00", "2007", "Oklahoma City, OK", "Murder and nonnegligent manslaughter", "58", null ]
+  , [ "row-hziu-rzz5-345j", "00000000-0000-0000-59BD-EB142F9B9CBD", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLViolent crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Tampa, FL", "Violent crime rate (per 100,000 population)", "597", null ]
+  , [ "row-gv2w~ydrg_p6yd", "00000000-0000-0000-67E3-06D67828CCB7", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNViolent crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Nashville, TN", "Violent crime rate (per 100,000 population)", "1040", null ]
+  , [ "row-mxyb.6nqd~eiyc", "00000000-0000-0000-8FB2-674D1124AA4F", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAViolent crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Baton Rouge, LA", "Violent crime rate (per 100,000 population)", "1265", null ]
+  , [ "row-c464.9m2b.k3qg", "00000000-0000-0000-BD09-E64D625B17C6", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageProperty crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Benchmark Average", "Property crime rate (per 100,000 population)", "5658", null ]
+  , [ "row-h4hy.qzeh~us9r", "00000000-0000-0000-701F-7E48E91217F1", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCMurder and nonnegligent manslaughter2013", "2013-12-31T00:00:00", "2013", "Raleigh, NC", "Murder and nonnegligent manslaughter", "12", null ]
+  , [ "row-e8jv.anif-aybr", "00000000-0000-0000-A8A0-E0B0C72A2FDA", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKMurder and nonnegligent manslaughter2010", "2010-12-31T00:00:00", "2010", "Oklahoma City, OK", "Murder and nonnegligent manslaughter", "54", null ]
+  , [ "row-2i9z_mgpt~wcfy", "00000000-0000-0000-09D2-2031947D6064", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCViolent crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Raleigh, NC", "Violent crime rate (per 100,000 population)", "572", null ]
+  , [ "row-f84t-2vad~8397", "00000000-0000-0000-FE40-746D0E393C30", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNProperty crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Nashville, TN", "Property crime rate (per 100,000 population)", "3630.600489", null ]
+  , [ "row-wqy7_ge5g.pj3g", "00000000-0000-0000-6751-4A33F235588F", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLProperty crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Miami, FL", "Property crime rate (per 100,000 population)", "5002", null ]
+  , [ "row-3ah2_9k2z-mkm4", "00000000-0000-0000-35C7-B7472DFACE02", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLMurder and nonnegligent manslaughter2007", "2007-12-31T00:00:00", "2007", "Tampa, FL", "Murder and nonnegligent manslaughter", "28", null ]
+  , [ "row-nnxy.yzbu_5c4v", "00000000-0000-0000-2FAB-476408C69A8A", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLProperty crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Tampa, FL", "Property crime rate (per 100,000 population)", "4600", null ]
+  , [ "row-3ndg.hkbb~2uxz", "00000000-0000-0000-BC31-9D0F110651AF", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAViolent crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "New Orleans, LA", "Violent crime rate (per 100,000 population)", "1564", null ]
+  , [ "row-9bbg_4mi7_4z5c", "00000000-0000-0000-A40E-0F433ECE8DEE", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAViolent crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Atlanta, GA", "Violent crime rate (per 100,000 population)", "1369", null ]
+  , [ "row-k45u.myyk.wxbd", "00000000-0000-0000-CD2C-B6A8BE464219", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKViolent crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Oklahoma City, OK", "Violent crime rate (per 100,000 population)", "915", null ]
+  , [ "row-zcb9_hgiz_fkre", "00000000-0000-0000-B2E7-1121009308FC", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCMurder and nonnegligent manslaughter2009", "2009-12-31T00:00:00", "2009", "Raleigh, NC", "Murder and nonnegligent manslaughter", "14", null ]
+  , [ "row-3sh9-wg7v-ayru", "00000000-0000-0000-2E73-E72C63D425B1", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNProperty crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Memphis, TN", "Property crime rate (per 100,000 population)", "5988.041324", null ]
+  , [ "row-u6ne_4nbf-wui8", "00000000-0000-0000-BACC-213DA7E7AAB0", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLMurder and nonnegligent manslaughter2014", "2014-12-31T00:00:00", "2014", "Miami, FL", "Murder and nonnegligent manslaughter", "81", null ]
+  , [ "row-mjmy~yixm~qq55", "00000000-0000-0000-0C94-1773CDD0619A", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNViolent crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Nashville, TN", "Violent crime rate (per 100,000 population)", "1216", null ]
+  , [ "row-ec8e_3wb3.ua7w", "00000000-0000-0000-4F02-23671A6C89EA", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLProperty crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Miami, FL", "Property crime rate (per 100,000 population)", "4832.74723", null ]
+  , [ "row-vk7e-jf5m.kvyi", "00000000-0000-0000-F56E-C0B6F1704383", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAMurder and nonnegligent manslaughter2007", "2007-12-31T00:00:00", "2007", "Baton Rouge, LA", "Murder and nonnegligent manslaughter", "71", null ]
+  , [ "row-h6d4_vd4j~qmar", "00000000-0000-0000-205A-C2249AFF5989", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAProperty crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "New Orleans, LA", "Property crime rate (per 100,000 population)", "4231.839282", null ]
+  , [ "row-haan_b8gj~9exg", "00000000-0000-0000-5546-F77B3EBB2BA8", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAMurder and nonnegligent manslaughter2013", "2013-12-31T00:00:00", "2013", "Atlanta, GA", "Murder and nonnegligent manslaughter", "84", null ]
+  , [ "row-qv3d.vrju-5j6y", "00000000-0000-0000-ABCE-11EF5BB0E0C6", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLProperty crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Tampa, FL", "Property crime rate (per 100,000 population)", "4975", null ]
+  , [ "row-dyzr.ksfq.74qd", "00000000-0000-0000-98F7-294AE05F26D2", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLViolent crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Miami, FL", "Violent crime rate (per 100,000 population)", "1335", null ]
+  , [ "row-ifdy.88f4~xwe8", "00000000-0000-0000-05FB-21621B2712E0", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKProperty crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Oklahoma City, OK", "Property crime rate (per 100,000 population)", "5893", null ]
+  , [ "row-xqzb~ycpu.uwaa", "00000000-0000-0000-A029-4E9CB97FDB60", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLMurder and nonnegligent manslaughter2008", "2008-12-31T00:00:00", "2008", "Miami, FL", "Murder and nonnegligent manslaughter", "63", null ]
+  , [ "row-i3kz.r6n5_kr24", "00000000-0000-0000-8243-C727C25E807E", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAMurder and nonnegligent manslaughter2012", "2012-12-31T00:00:00", "2012", "New Orleans, LA", "Murder and nonnegligent manslaughter", "193", null ]
+  , [ "row-2bah~8hkd-u7uh", "00000000-0000-0000-0FDA-793750AB0DFF", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAMurder and nonnegligent manslaughter2011", "2011-12-31T00:00:00", "2011", "New Orleans, LA", "Murder and nonnegligent manslaughter", "200", null ]
+  , [ "row-7fvp-cjhs.gxid", "00000000-0000-0000-03E7-6BC80AE7B5BD", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAProperty crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "New Orleans, LA", "Property crime rate (per 100,000 population)", "3853", null ]
+  , [ "row-i6w4_c4q2_kr66", "00000000-0000-0000-38C6-74B17380A447", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageMurder and nonnegligent manslaughter2013", "2013-12-31T00:00:00", "2013", "Benchmark Average", "Murder and nonnegligent manslaughter", "57", null ]
+  , [ "row-e2yc.8y3h~24gu", "00000000-0000-0000-7778-286105BD04F0", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageMurder and nonnegligent manslaughter2009", "2009-12-31T00:00:00", "2009", "Benchmark Average", "Murder and nonnegligent manslaughter", "65", null ]
+  , [ "row-tsjd~7pxm_a7g4", "00000000-0000-0000-C3C4-476496B2D77B", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAViolent crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Atlanta, GA", "Violent crime rate (per 100,000 population)", "1389", null ]
+  , [ "row-waa2.e3t4-hs4t", "00000000-0000-0000-10EA-6AD6543A03CF", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCViolent crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Raleigh, NC", "Violent crime rate (per 100,000 population)", null, null ]
+  , [ "row-fb4u.6f5k~r5g2", "00000000-0000-0000-4B1A-2CA71F558ABC", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageMurder and nonnegligent manslaughter2007", "2007-12-31T00:00:00", "2007", "Benchmark Average", "Murder and nonnegligent manslaughter", "74", null ]
+  , [ "row-ngg8-h365~c2re", "00000000-0000-0000-C000-9F5B6C8FCEAE", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNViolent crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Memphis, TN", "Violent crime rate (per 100,000 population)", "1952", null ]
+  , [ "row-qmam_jmgn_892g", "00000000-0000-0000-6DEF-20D00E35CEB2", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLViolent crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Miami, FL", "Violent crime rate (per 100,000 population)", "1198", null ]
+  , [ "row-mgbu_bq8r~2myh", "00000000-0000-0000-C3CD-E20844B4CB44", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageProperty crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Benchmark Average", "Property crime rate (per 100,000 population)", "5802", null ]
+  , [ "row-fegp~zv2p-caky", "00000000-0000-0000-0AEA-39CB156781CF", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAViolent crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "New Orleans, LA", "Violent crime rate (per 100,000 population)", "973.875845", null ]
+  , [ "row-2y79~jkj5-ngk3", "00000000-0000-0000-43B6-567A631EB835", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageMurder and nonnegligent manslaughter2012", "2012-12-31T00:00:00", "2012", "Benchmark Average", "Murder and nonnegligent manslaughter", "67", null ]
+  , [ "row-dn6x.h7va.atwa", "00000000-0000-0000-8B31-C51BDA568E27", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAViolent crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Baton Rouge, LA", "Violent crime rate (per 100,000 population)", "1083", null ]
+  , [ "row-pw7k.3ffj~knn7", "00000000-0000-0000-04AA-7D547FD15AE7", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageViolent crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Benchmark Average", "Violent crime rate (per 100,000 population)", "1275", null ]
+  , [ "row-4icz~yk3t-3bgs", "00000000-0000-0000-FE94-E57E5DBA0DDA", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKProperty crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Oklahoma City, OK", "Property crime rate (per 100,000 population)", "4410.858044", null ]
+  , [ "row-f3ip~uwi9_cvu7", "00000000-0000-0000-CC72-5A5C69F2EDBF", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKViolent crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Oklahoma City, OK", "Violent crime rate (per 100,000 population)", "826", null ]
+  , [ "row-6vzy_h2cz-buyb", "00000000-0000-0000-FDB7-BFC43C4D3EE3", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLProperty crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Miami, FL", "Property crime rate (per 100,000 population)", "5312", null ]
+  , [ "row-bwwp~c7ca~eicm", "00000000-0000-0000-8281-928D878B0D40", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageMurder and nonnegligent manslaughter2010", "2010-12-31T00:00:00", "2010", "Benchmark Average", "Murder and nonnegligent manslaughter", "58", null ]
+  , [ "row-vz6z_d9qi_wju9", "00000000-0000-0000-5F4A-768D0525B654", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAProperty crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Atlanta, GA", "Property crime rate (per 100,000 population)", "6213", null ]
+  , [ "row-recq~rrvs.b7p7", "00000000-0000-0000-483A-2FB407BBDC66", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLViolent crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Miami, FL", "Violent crime rate (per 100,000 population)", "1189", null ]
+  , [ "row-njjf.pcxs~ymfi", "00000000-0000-0000-001A-816D1E718496", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNProperty crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Nashville, TN", "Property crime rate (per 100,000 population)", "3848", null ]
+  , [ "row-vxxc-t26m_e8kk", "00000000-0000-0000-55FD-8C72408C1268", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAProperty crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Atlanta, GA", "Property crime rate (per 100,000 population)", "7286", null ]
+  , [ "row-3wpx-stiz_455f", "00000000-0000-0000-1B79-EEF4A056E613", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCMurder and nonnegligent manslaughter2014", "2014-12-31T00:00:00", "2014", "Raleigh, NC", "Murder and nonnegligent manslaughter", null, null ]
+  , [ "row-p5zv~j48s~v4fz", "00000000-0000-0000-D6F3-60A2B52F1CC1", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLProperty crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Miami, FL", "Property crime rate (per 100,000 population)", "5163", null ]
+  , [ "row-e7yv.nbgr-dibz", "00000000-0000-0000-347B-72064F994244", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLViolent crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Tampa, FL", "Violent crime rate (per 100,000 population)", "646", null ]
+  , [ "row-h9zj_yyqt_4e2r", "00000000-0000-0000-B23A-DFF2D126E719", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAMurder and nonnegligent manslaughter2011", "2011-12-31T00:00:00", "2011", "Atlanta, GA", "Murder and nonnegligent manslaughter", "88", null ]
+  , [ "row-2gd4-pgbt~8fu5", "00000000-0000-0000-7178-F3FF11A5E5A1", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAProperty crime rate (per 100,000 population)2015", "2015-12-31T00:00:00", "2015", "New Orleans, LA", "Property crime rate (per 100,000 population)", "3966.226062", "Preliminary calculation using the 2014 population estimate released in 2015 from the Census Bureau (384,320)" ]
+  , [ "row-8d5h-c6zf_jyxv", "00000000-0000-0000-3589-AFA6F4476235", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKMurder and nonnegligent manslaughter2012", "2012-12-31T00:00:00", "2012", "Oklahoma City, OK", "Murder and nonnegligent manslaughter", "85", null ]
+  , [ "row-6u2s~ss3f-i4fn", "00000000-0000-0000-154E-E4AAA0A62088", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAMurder and nonnegligent manslaughter2014", "2014-12-31T00:00:00", "2014", "New Orleans, LA", "Murder and nonnegligent manslaughter", "150", null ]
+  , [ "row-zun3~fixw_eyce", "00000000-0000-0000-A15B-D3919003516A", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageProperty crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Benchmark Average", "Property crime rate (per 100,000 population)", "4613", null ]
+  , [ "row-8424_nqna~2ffv", "00000000-0000-0000-C909-42B8A05C968F", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageProperty crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Benchmark Average", "Property crime rate (per 100,000 population)", "5245", null ]
+  , [ "row-rwyf.jnp7_ic8d", "00000000-0000-0000-6718-C9FD22B2D006", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAMurder and nonnegligent manslaughter2008", "2008-12-31T00:00:00", "2008", "Atlanta, GA", "Murder and nonnegligent manslaughter", "105", null ]
+  , [ "row-5efk.p5v9-zqek", "00000000-0000-0000-40CB-CBCCAEFE0471", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNMurder and nonnegligent manslaughter2014", "2014-12-31T00:00:00", "2014", "Memphis, TN", "Murder and nonnegligent manslaughter", "140", null ]
+  , [ "row-tmdi-536c_rwpr", "00000000-0000-0000-1ECD-4E792B036A03", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNProperty crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Memphis, TN", "Property crime rate (per 100,000 population)", "7080", null ]
+  , [ "row-d3sh_j5et.4zrx", "00000000-0000-0000-1BD4-1F256646EB1D", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLViolent crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Miami, FL", "Violent crime rate (per 100,000 population)", "1492", null ]
+  , [ "row-g5pf_w9f8-ycth", "00000000-0000-0000-25DE-579674D02ED9", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCProperty crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Raleigh, NC", "Property crime rate (per 100,000 population)", "3403", null ]
+  , [ "row-9sfx_7yti-qgkp", "00000000-0000-0000-EB46-2478C4BC7427", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAViolent crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "New Orleans, LA", "Violent crime rate (per 100,000 population)", "815", null ]
+  , [ "row-dvgb~xbui_qsss", "00000000-0000-0000-74E4-48454F7B7169", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLMurder and nonnegligent manslaughter2007", "2007-12-31T00:00:00", "2007", "Miami, FL", "Murder and nonnegligent manslaughter", "78", null ]
+  , [ "row-4y95_jvci.trpw", "00000000-0000-0000-82FB-4A3979BE7739", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNProperty crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Nashville, TN", "Property crime rate (per 100,000 population)", "5360", null ]
+  , [ "row-7s2t_39dw.5v6q", "00000000-0000-0000-09FD-0BF24545FD8B", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCProperty crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Raleigh, NC", "Property crime rate (per 100,000 population)", "3401", null ]
+  , [ "row-5cfs-nc7r~strj", "00000000-0000-0000-4A5C-6BC54C48117C", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLViolent crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Tampa, FL", "Violent crime rate (per 100,000 population)", "752", null ]
+  , [ "row-tytn.4i9q~cz3z", "00000000-0000-0000-D64F-58F9780F9E61", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAViolent crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "New Orleans, LA", "Violent crime rate (per 100,000 population)", "1019", null ]
+  , [ "row-yqys-sp2v~rbf2", "00000000-0000-0000-D752-682DA9F874D7", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLMurder and nonnegligent manslaughter2013", "2013-12-31T00:00:00", "2013", "Miami, FL", "Murder and nonnegligent manslaughter", "71", null ]
+  , [ "row-uw2v-ziha.agt2", "00000000-0000-0000-D938-E30098485C25", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAViolent crime rate (per 100,000 population)2015", "2015-12-31T00:00:00", "2015", "New Orleans, LA", "Violent crime rate (per 100,000 population)", "973.1473772", "Preliminary calculation using the 2014 population estimate released in 2015 from the Census Bureau (384,320)" ]
+  , [ "row-vrdv~z96b~eum4", "00000000-0000-0000-BBEC-64C5C9B02206", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLViolent crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Miami, FL", "Violent crime rate (per 100,000 population)", "1221", null ]
+  , [ "row-vi9v-54bk_7vik", "00000000-0000-0000-39F3-F6E539B84E43", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAProperty crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Baton Rouge, LA", "Property crime rate (per 100,000 population)", "4960", null ]
+  , [ "row-u64i-v9pn~zbjf", "00000000-0000-0000-43B6-F0F20782AEBE", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAViolent crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Baton Rouge, LA", "Violent crime rate (per 100,000 population)", "924", null ]
+  , [ "row-cmyn~9ebb~iw6n", "00000000-0000-0000-C665-12EBA0D461BC", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCViolent crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Raleigh, NC", "Violent crime rate (per 100,000 population)", "578", null ]
+  , [ "row-9g5c-sg22_7nqh", "00000000-0000-0000-6FE1-97B2ED521E88", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNViolent crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Nashville, TN", "Violent crime rate (per 100,000 population)", "1141", null ]
+  , [ "row-8ah3-svk9-2edq", "00000000-0000-0000-C1DC-33A8AE37E985", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAMurder and nonnegligent manslaughter2010", "2010-12-31T00:00:00", "2010", "Baton Rouge, LA", "Murder and nonnegligent manslaughter", "69", null ]
+  , [ "row-vhxa.dd2f.nwmu", "00000000-0000-0000-0EE2-DDE7ABAF7DCB", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNMurder and nonnegligent manslaughter2007", "2007-12-31T00:00:00", "2007", "Nashville, TN", "Murder and nonnegligent manslaughter", "73", null ]
+  , [ "row-c467_ndwj~cpqe", "00000000-0000-0000-99C9-F2E91A461DC1", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAViolent crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Baton Rouge, LA", "Violent crime rate (per 100,000 population)", "1185", null ]
+  , [ "row-upt7_myp5-cw9z", "00000000-0000-0000-A9AE-8664BD044574", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNProperty crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Nashville, TN", "Property crime rate (per 100,000 population)", "4196", null ]
+  , [ "row-gn98-3zy9~kdz8", "00000000-0000-0000-C985-5AF341293E66", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNProperty crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Memphis, TN", "Property crime rate (per 100,000 population)", "6052", null ]
+  , [ "row-snc3.uvmc_xj9h", "00000000-0000-0000-CAB0-32D73E18E46B", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKViolent crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Oklahoma City, OK", "Violent crime rate (per 100,000 population)", "978", null ]
+  , [ "row-7hjk~6e4r~k5ya", "00000000-0000-0000-0FD0-4CF5008A1076", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAMurder and nonnegligent manslaughter2009", "2009-12-31T00:00:00", "2009", "New Orleans, LA", "Murder and nonnegligent manslaughter", "174", null ]
+  , [ "row-v75w~inzu-ja2v", "00000000-0000-0000-BC8F-05E1E93D08D1", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLViolent crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Miami, FL", "Violent crime rate (per 100,000 population)", "1182", null ]
+  , [ "row-qpme.3rb5_83pm", "00000000-0000-0000-DEFC-56AAD1E2B96A", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNProperty crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Memphis, TN", "Property crime rate (per 100,000 population)", "8070", null ]
+  , [ "row-mji6.usw2.qpu7", "00000000-0000-0000-174B-7F6D01C17089", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKMurder and nonnegligent manslaughter2014", "2014-12-31T00:00:00", "2014", "Oklahoma City, OK", "Murder and nonnegligent manslaughter", "45", null ]
+  , [ "row-d3q8~j3b2~fash", "00000000-0000-0000-21F2-8444A5EED503", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAProperty crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Baton Rouge, LA", "Property crime rate (per 100,000 population)", "5432", null ]
+  , [ "row-hkgi_murf-sena", "00000000-0000-0000-5BBE-529F8C25C800", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAViolent crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Atlanta, GA", "Violent crime rate (per 100,000 population)", "1150", null ]
+  , [ "row-v6vv~bd7m~uxgb", "00000000-0000-0000-D94C-9095376295D0", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKViolent crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Oklahoma City, OK", "Violent crime rate (per 100,000 population)", "919", null ]
+  , [ "row-29ka~g5fm-ujrj", "00000000-0000-0000-2290-232D69A730A9", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageProperty crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Benchmark Average", "Property crime rate (per 100,000 population)", "4436.846946", null ]
+  , [ "row-2dkg.tcn2.2qqk", "00000000-0000-0000-F846-4999CB76F9A0", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAMurder and nonnegligent manslaughter2015", "2015-12-31T00:00:00", "2015", "New Orleans, LA", "Murder and nonnegligent manslaughter", "164", null ]
+  , [ "row-38nf~nucq.vvm6", "00000000-0000-0000-9B2F-A66573E8B52C", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAProperty crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Baton Rouge, LA", "Property crime rate (per 100,000 population)", "5972", null ]
+  , [ "row-qg6g-jzfb~ssza", "00000000-0000-0000-9FAD-8F30D94B2643", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAViolent crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Atlanta, GA", "Violent crime rate (per 100,000 population)", "1624", null ]
+  , [ "row-6guq.z2fj~i2tk", "00000000-0000-0000-8844-729FEDFF91E8", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLProperty crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Miami, FL", "Property crime rate (per 100,000 population)", "5190", null ]
+  , [ "row-4f97_nfwd_nfip", "00000000-0000-0000-F2B5-78214A161C7F", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCProperty crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Raleigh, NC", "Property crime rate (per 100,000 population)", null, null ]
+  , [ "row-qzss~w4zr_jb53", "00000000-0000-0000-5164-C3CE45CABF44", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAProperty crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Atlanta, GA", "Property crime rate (per 100,000 population)", "6103", null ]
+  , [ "row-e57w_bdnr~fe2f", "00000000-0000-0000-CCBE-CCB5C6F94105", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageViolent crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Benchmark Average", "Violent crime rate (per 100,000 population)", "1208", null ]
+  , [ "row-as3p-qjsg.vx3w", "00000000-0000-0000-28E9-EBAA09C52090", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKProperty crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Oklahoma City, OK", "Property crime rate (per 100,000 population)", "6098", null ]
+  , [ "row-8kut.96ya-qdzm", "00000000-0000-0000-966F-E27F4C05EF85", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCViolent crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Raleigh, NC", "Violent crime rate (per 100,000 population)", "422", null ]
+  , [ "row-b495_z53n-i2ns", "00000000-0000-0000-53C8-8556A586B133", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCProperty crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Raleigh, NC", "Property crime rate (per 100,000 population)", "3217", null ]
+  , [ "row-upjr-kc59.v3zy", "00000000-0000-0000-AE52-BE6736E5C220", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCViolent crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Raleigh, NC", "Violent crime rate (per 100,000 population)", "423", null ]
+  , [ "row-7gd6_6tbq.b6tt", "00000000-0000-0000-E508-6C1DE63C873A", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLViolent crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Tampa, FL", "Violent crime rate (per 100,000 population)", "883", null ]
+  , [ "row-x53t~e7sg~rtwn", "00000000-0000-0000-FFEF-EDC4603DE081", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLProperty crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Miami, FL", "Property crime rate (per 100,000 population)", "4957", null ]
+  , [ "row-fqn8-fzjv-8mdf", "00000000-0000-0000-4FDD-B323760EFD25", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNMurder and nonnegligent manslaughter2011", "2011-12-31T00:00:00", "2011", "Memphis, TN", "Murder and nonnegligent manslaughter", "117", null ]
+  , [ "row-iizc-8i2v.d8cz", "00000000-0000-0000-B3DA-74B181EF98FC", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageViolent crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Benchmark Average", "Violent crime rate (per 100,000 population)", "980", null ]
+  , [ "row-auqh~4dzv_zf2a", "00000000-0000-0000-9D2A-5DBF92121A5F", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLProperty crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Tampa, FL", "Property crime rate (per 100,000 population)", "3754", null ]
+  , [ "row-gtng-94z9~uf8h", "00000000-0000-0000-AB16-5D3EE7E2107A", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAMurder and nonnegligent manslaughter2009", "2009-12-31T00:00:00", "2009", "Baton Rouge, LA", "Murder and nonnegligent manslaughter", "75", null ]
+  , [ "row-fxvf_ay3a.4yim", "00000000-0000-0000-4426-FD588F2DFC31", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageMurder and nonnegligent manslaughter2014", "2014-12-31T00:00:00", "2014", "Benchmark Average", "Murder and nonnegligent manslaughter", "76.33333333", null ]
+  , [ "row-niwv~pa2q.4cxr", "00000000-0000-0000-2DDF-84EDBEBAA3E8", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAProperty crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Baton Rouge, LA", "Property crime rate (per 100,000 population)", "5469", null ]
+  , [ "row-z4vb~ivcz~ae5b", "00000000-0000-0000-EEAA-5A56CB9ECCFF", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCProperty crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Raleigh, NC", "Property crime rate (per 100,000 population)", "3276", null ]
+  , [ "row-q2um.f7n6.cxzz", "00000000-0000-0000-B932-607B6184B5D6", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNProperty crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Memphis, TN", "Property crime rate (per 100,000 population)", "6313", null ]
+  , [ "row-38rt.bcgx_tbjj", "00000000-0000-0000-2E68-21AE6BDF0461", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAProperty crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Atlanta, GA", "Property crime rate (per 100,000 population)", "7313", null ]
+  , [ "row-g8ip-is7h~zgxg", "00000000-0000-0000-EA4A-668C24FC4975", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAViolent crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "New Orleans, LA", "Violent crime rate (per 100,000 population)", "792", null ]
+  , [ "row-wrwe~vydg.bb96", "00000000-0000-0000-DF4E-6BF67B0049AB", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCViolent crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Raleigh, NC", "Violent crime rate (per 100,000 population)", "392", null ]
+  , [ "row-7xnh-yrjw.n6kv", "00000000-0000-0000-0D6A-772BAC87861D", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNViolent crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Memphis, TN", "Violent crime rate (per 100,000 population)", "1584", null ]
+  , [ "row-nd43-qjs7.73sa", "00000000-0000-0000-1BDD-3948E79226E0", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLProperty crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Tampa, FL", "Property crime rate (per 100,000 population)", "2836", null ]
+  , [ "row-ugb5.95df~j3nk", "00000000-0000-0000-94B0-23D716C9FFF3", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAMurder and nonnegligent manslaughter2007", "2007-12-31T00:00:00", "2007", "New Orleans, LA", "Murder and nonnegligent manslaughter", "209", null ]
+  , [ "row-qdcn~4zye~rdn2", "00000000-0000-0000-C01C-C214EE387964", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLProperty crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Tampa, FL", "Property crime rate (per 100,000 population)", "2427.728184", null ]
+  , [ "row-a7h2~ck99.6h6z", "00000000-0000-0000-F807-24F279EE6374", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLProperty crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Tampa, FL", "Property crime rate (per 100,000 population)", "3412", null ]
+  , [ "row-i2wr~yhxz_9uhz", "00000000-0000-0000-14B4-80550CE60579", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAViolent crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "New Orleans, LA", "Violent crime rate (per 100,000 population)", "777", null ]
+  , [ "row-n7gj.amcd-xfxm", "00000000-0000-0000-86AA-6474E488F037", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLProperty crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Miami, FL", "Property crime rate (per 100,000 population)", "5375", null ]
+  , [ "row-fs2t.gnic~ejz7", "00000000-0000-0000-E826-B2744280E4F9", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKViolent crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Oklahoma City, OK", "Violent crime rate (per 100,000 population)", "851", null ]
+  , [ "row-w9kc-9pzw.g29d", "00000000-0000-0000-7B40-183EBCED711E", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNViolent crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Memphis, TN", "Violent crime rate (per 100,000 population)", "1608", null ]
+  , [ "row-zj6e-3brx.gqbb", "00000000-0000-0000-8777-608E80A5F3FD", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAViolent crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Atlanta, GA", "Violent crime rate (per 100,000 population)", "1223", null ]
+  , [ "row-8ayh-w3pc.czvy", "00000000-0000-0000-B20F-E0C91544522C", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLProperty crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Tampa, FL", "Property crime rate (per 100,000 population)", "2511", null ]
+  , [ "row-kgiw.45cy~p6ym", "00000000-0000-0000-C997-D927F3DC9B2E", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNMurder and nonnegligent manslaughter2012", "2012-12-31T00:00:00", "2012", "Nashville, TN", "Murder and nonnegligent manslaughter", "62", null ]
+  , [ "row-4jg5_k2vk.hpts", "00000000-0000-0000-DEA5-7676F41EA71D", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNProperty crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Memphis, TN", "Property crime rate (per 100,000 population)", "6489", null ]
+  , [ "row-v8rd.axne_w9mu", "00000000-0000-0000-7DE6-0E500F5ED248", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAProperty crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "New Orleans, LA", "Property crime rate (per 100,000 population)", "4039", null ]
+  , [ "row-23dt~7wzu_k2w6", "00000000-0000-0000-C1AD-477327D7DC97", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNProperty crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Nashville, TN", "Property crime rate (per 100,000 population)", "4775", null ]
+  , [ "row-m5bn_3cv9-5t53", "00000000-0000-0000-533F-0D40EE8FCD38", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAProperty crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Atlanta, GA", "Property crime rate (per 100,000 population)", "6534", null ]
+  , [ "row-z6e3_3y46_w3gy", "00000000-0000-0000-A146-08B457D33F73", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNViolent crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Nashville, TN", "Violent crime rate (per 100,000 population)", "1122.452288", null ]
+  , [ "row-iy5s_fbp7~5xpi", "00000000-0000-0000-E872-051142C15D60", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNViolent crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Nashville, TN", "Violent crime rate (per 100,000 population)", "1181", null ]
+  , [ "row-kc3r_e4v8_gnnf", "00000000-0000-0000-491C-BF4B8F4A2FB1", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKProperty crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Oklahoma City, OK", "Property crime rate (per 100,000 population)", "5819", null ]
+  , [ "row-pry2_4w4j-5e7i", "00000000-0000-0000-7465-3135CB8A3686", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAViolent crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Baton Rouge, LA", "Violent crime rate (per 100,000 population)", "1104", null ]
+  , [ "row-23nx-rnb3-3wyq", "00000000-0000-0000-EBC7-4D299E2994BE", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageProperty crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Benchmark Average", "Property crime rate (per 100,000 population)", "5300", null ]
+  , [ "row-xzmy-wxbu~8p4j", "00000000-0000-0000-7B6D-D625AD6C9346", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAMurder and nonnegligent manslaughter2010", "2010-12-31T00:00:00", "2010", "Atlanta, GA", "Murder and nonnegligent manslaughter", "93", null ]
+  , [ "row-tw8g_jyyh~cpwv", "00000000-0000-0000-8639-02F5DA97A7E9", 0, 1456421062, null, 1456421062, null, "{ }", "Louisville Metro6, 7Violent crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Louisville Metro6, 7", "Violent crime rate (per 100,000 population)", "590.9607354", null ]
+  , [ "row-nmsb_k3ge-7ieu", "00000000-0000-0000-D8FD-9EE14422A48E", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageProperty crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Benchmark Average", "Property crime rate (per 100,000 population)", "4960", null ]
+  , [ "row-zy87~bk7y_c6m8", "00000000-0000-0000-B46F-61BD8CBB867E", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCViolent crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Raleigh, NC", "Violent crime rate (per 100,000 population)", "431", null ]
+  , [ "row-tjjt-twd6~q3h8", "00000000-0000-0000-BBF3-F778BCCD005B", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAViolent crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "New Orleans, LA", "Violent crime rate (per 100,000 population)", "754", null ]
+  , [ "row-pi4y.5akz_snww", "00000000-0000-0000-89C5-C64C438702B7", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAViolent crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Baton Rouge, LA", "Violent crime rate (per 100,000 population)", "1145", null ]
+  , [ "row-mksb_mxti~s6ty", "00000000-0000-0000-3AB3-914E54E068CF", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLMurder and nonnegligent manslaughter2010", "2010-12-31T00:00:00", "2010", "Miami, FL", "Murder and nonnegligent manslaughter", "68", null ]
+  , [ "row-gvg4_tdvx~xd8v", "00000000-0000-0000-19F4-03D2A656FED1", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNViolent crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Memphis, TN", "Violent crime rate (per 100,000 population)", "1750", null ]
+  , [ "row-ma6j.xxrv_mckz", "00000000-0000-0000-B0C8-25371FB036DB", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAMurder and nonnegligent manslaughter2008", "2008-12-31T00:00:00", "2008", "Baton Rouge, LA", "Murder and nonnegligent manslaughter", "67", null ]
+  , [ "row-bzjj~ez7b~vbvv", "00000000-0000-0000-9609-95FE8B9307DB", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageViolent crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Benchmark Average", "Violent crime rate (per 100,000 population)", "1052", null ]
+  , [ "row-h6m4.bjhb_e4kt", "00000000-0000-0000-105F-F743641DF65C", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageProperty crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Benchmark Average", "Property crime rate (per 100,000 population)", "5199", null ]
+  , [ "row-jvid.msrq.cfeu", "00000000-0000-0000-4839-158A112907BC", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLProperty crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Miami, FL", "Property crime rate (per 100,000 population)", "5661", null ]
+  , [ "row-wrsy-h5wd.477h", "00000000-0000-0000-6038-85C2122CA1F3", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKProperty crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Oklahoma City, OK", "Property crime rate (per 100,000 population)", "5894", null ]
+  , [ "row-z4tn-iug6.ret8", "00000000-0000-0000-D739-BC1CA3B2D01F", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageViolent crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Benchmark Average", "Violent crime rate (per 100,000 population)", "1070", null ]
+  , [ "row-wgjy.jmdm~psad", "00000000-0000-0000-3798-0F1077F84921", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKMurder and nonnegligent manslaughter2013", "2013-12-31T00:00:00", "2013", "Oklahoma City, OK", "Murder and nonnegligent manslaughter", "62", null ]
+  , [ "row-kvxq.ehbj~iffk", "00000000-0000-0000-9CC3-1C4CE92749E4", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNMurder and nonnegligent manslaughter2012", "2012-12-31T00:00:00", "2012", "Memphis, TN", "Murder and nonnegligent manslaughter", "133", null ]
+  , [ "row-wcjr~3npg~wzqh", "00000000-0000-0000-E120-00213B0A72E2", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLMurder and nonnegligent manslaughter2008", "2008-12-31T00:00:00", "2008", "Tampa, FL", "Murder and nonnegligent manslaughter", "27", null ]
+  , [ "row-kbrw_ex8a-nqmj", "00000000-0000-0000-8144-252912A9F839", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLViolent crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Tampa, FL", "Violent crime rate (per 100,000 population)", "616", null ]
+  , [ "row-eber-dvjv~x933", "00000000-0000-0000-D5B6-45645051B9E5", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageViolent crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Benchmark Average", "Violent crime rate (per 100,000 population)", "1051", null ]
+  , [ "row-rtk3_ujd9-6wp6", "00000000-0000-0000-7710-E5996E5379B2", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKMurder and nonnegligent manslaughter2008", "2008-12-31T00:00:00", "2008", "Oklahoma City, OK", "Murder and nonnegligent manslaughter", "57", null ]
+  , [ "row-9det.ps7s.n69j", "00000000-0000-0000-AF17-F141694CAC8A", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNProperty crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Memphis, TN", "Property crime rate (per 100,000 population)", "8016", null ]
+  , [ "row-pbcf_s2a7.uz6r", "00000000-0000-0000-B182-271DBDD3913E", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCMurder and nonnegligent manslaughter2008", "2008-12-31T00:00:00", "2008", "Raleigh, NC", "Murder and nonnegligent manslaughter", "34", null ]
+  , [ "row-p9ie.qdpg~492h", "00000000-0000-0000-E99E-13AAAFE262FC", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAMurder and nonnegligent manslaughter2012", "2012-12-31T00:00:00", "2012", "Atlanta, GA", "Murder and nonnegligent manslaughter", "83", null ]
+  , [ "row-9nv3~qgnp.mq7b", "00000000-0000-0000-202C-EFEDD863F2AB", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAMurder and nonnegligent manslaughter2007", "2007-12-31T00:00:00", "2007", "Atlanta, GA", "Murder and nonnegligent manslaughter", "129", null ]
+  , [ "row-bzm9~hbs9-m33p", "00000000-0000-0000-5058-98336042A740", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLProperty crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Tampa, FL", "Property crime rate (per 100,000 population)", "3054", null ]
+  , [ "row-wb9q.yv4w-uy5s", "00000000-0000-0000-C581-FB8D961351F6", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLViolent crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Miami, FL", "Violent crime rate (per 100,000 population)", "1059.962654", null ]
+  , [ "row-nuiy~8cyp-qj7b", "00000000-0000-0000-490F-68062FFDCE5A", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAViolent crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Baton Rouge, LA", "Violent crime rate (per 100,000 population)", "1066", null ]
+  , [ "row-vyfv~mtyu.n8k7", "00000000-0000-0000-C653-E84D7AF1BE92", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKViolent crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Oklahoma City, OK", "Violent crime rate (per 100,000 population)", "871", null ]
+  , [ "row-2y8h.b88p~schb", "00000000-0000-0000-9323-7E693C924013", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNMurder and nonnegligent manslaughter2010", "2010-12-31T00:00:00", "2010", "Nashville, TN", "Murder and nonnegligent manslaughter", "55", null ]
+  , [ "row-4ffx.4dgc-4cc3", "00000000-0000-0000-30BD-329207329677", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNViolent crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Nashville, TN", "Violent crime rate (per 100,000 population)", "1509", null ]
+  , [ "row-di23.2wmz~2whw", "00000000-0000-0000-E16C-058FD6841ECC", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAProperty crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Baton Rouge, LA", "Property crime rate (per 100,000 population)", "5494", null ]
+  , [ "row-pyis_vp5z.5tpw", "00000000-0000-0000-6F97-F6272F3C71A1", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKViolent crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Oklahoma City, OK", "Violent crime rate (per 100,000 population)", "773.8177111", null ]
+  , [ "row-b6b7_39y8~kzfr", "00000000-0000-0000-8CF0-F7330B4627D2", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCViolent crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Raleigh, NC", "Violent crime rate (per 100,000 population)", "493", null ]
+  , [ "row-gdan-sswu.4ngs", "00000000-0000-0000-A2BB-527F898B524F", 0, 1456421062, null, 1456421062, null, "{ }", "Louisville Metro6, 7Property crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Louisville Metro6, 7", "Property crime rate (per 100,000 population)", "4185.270986", null ]
+  , [ "row-rzut_8jfd-x8it", "00000000-0000-0000-D754-EB85B8AD4BB7", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAViolent crime rate (per 100,000 population)2012", "2012-12-31T00:00:00", "2012", "Atlanta, GA", "Violent crime rate (per 100,000 population)", "1379", null ]
+  , [ "row-kszn.3ap9.877j", "00000000-0000-0000-0495-A6B101C90B5F", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNViolent crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Memphis, TN", "Violent crime rate (per 100,000 population)", "1656", null ]
+  , [ "row-vmkf~s84s_n2f7", "00000000-0000-0000-755E-29B7C09E5903", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLMurder and nonnegligent manslaughter2012", "2012-12-31T00:00:00", "2012", "Miami, FL", "Murder and nonnegligent manslaughter", "69", null ]
+  , [ "row-qegr-shsz-sr7f", "00000000-0000-0000-51C9-24656423D651", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNProperty crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Nashville, TN", "Property crime rate (per 100,000 population)", "4774", null ]
+  , [ "row-95ez.6sin~z5sc", "00000000-0000-0000-8C48-3A3A3573825F", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAViolent crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Atlanta, GA", "Violent crime rate (per 100,000 population)", "1227.432691", null ]
+  , [ "row-hpsh.xhkm~z8pe", "00000000-0000-0000-A108-432BFF3BB824", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageMurder and nonnegligent manslaughter2011", "2011-12-31T00:00:00", "2011", "Benchmark Average", "Murder and nonnegligent manslaughter", "60", null ]
+  , [ "row-qm4c.qhrk~p6w9", "00000000-0000-0000-7264-6B297E3E04CE", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNMurder and nonnegligent manslaughter2013", "2013-12-31T00:00:00", "2013", "Memphis, TN", "Murder and nonnegligent manslaughter", "124", null ]
+  , [ "row-rspn~77ge-rfph", "00000000-0000-0000-AB65-E9687DBFF417", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLViolent crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Tampa, FL", "Violent crime rate (per 100,000 population)", "655", null ]
+  , [ "row-bfg7_qusd.fdus", "00000000-0000-0000-2D0C-E76F8DEEBFEF", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAProperty crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Atlanta, GA", "Property crime rate (per 100,000 population)", "5747.387001", null ]
+  , [ "row-ibfw.ux8p_ejx5", "00000000-0000-0000-CA1C-320A10304155", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNViolent crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Nashville, TN", "Violent crime rate (per 100,000 population)", "1124", null ]
+  , [ "row-yg9r~gp56-6h2d", "00000000-0000-0000-FA41-7770F2B1B374", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLViolent crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Tampa, FL", "Violent crime rate (per 100,000 population)", "582.4307523", null ]
+  , [ "row-9umr.9zd6.fubg", "00000000-0000-0000-3344-2CD8375AAB23", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAProperty crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Baton Rouge, LA", "Property crime rate (per 100,000 population)", "6119", null ]
+  , [ "row-ba7m~yvpd-uk7n", "00000000-0000-0000-8786-EF00D8141FD2", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKProperty crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Oklahoma City, OK", "Property crime rate (per 100,000 population)", "5368", null ]
+  , [ "row-9xaw_hh7n~hg3f", "00000000-0000-0000-A8EE-82A80978E05C", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNMurder and nonnegligent manslaughter2007", "2007-12-31T00:00:00", "2007", "Memphis, TN", "Murder and nonnegligent manslaughter", "131", null ]
+  , [ "row-zgir.x5uc-minw", "00000000-0000-0000-E1F9-64D7DDC6122C", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAMurder and nonnegligent manslaughter2012", "2012-12-31T00:00:00", "2012", "Baton Rouge, LA", "Murder and nonnegligent manslaughter", "66", null ]
+  , [ "row-8du3-paku~7mu2", "00000000-0000-0000-85ED-2CDBD7C5373F", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLMurder and nonnegligent manslaughter2014", "2014-12-31T00:00:00", "2014", "Tampa, FL", "Murder and nonnegligent manslaughter", "28", null ]
+  , [ "row-x5ux_t26q_9xqi", "00000000-0000-0000-13E1-116AF8E87483", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCProperty crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Raleigh, NC", "Property crime rate (per 100,000 population)", "3238", null ]
+  , [ "row-c7gx~7x2p.uhm3", "00000000-0000-0000-F742-ECE493CAF3A4", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNViolent crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "Memphis, TN", "Violent crime rate (per 100,000 population)", "1925", null ]
+  , [ "row-7sir.6nm7.uiyc", "00000000-0000-0000-BD00-CBCCF4ABC4EC", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAViolent crime rate (per 100,000 population)2011", "2011-12-31T00:00:00", "2011", "Atlanta, GA", "Violent crime rate (per 100,000 population)", "1433", null ]
+  , [ "row-b9g6~awbw~87hx", "00000000-0000-0000-9030-392071075CCD", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLViolent crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Tampa, FL", "Violent crime rate (per 100,000 population)", "1060", null ]
+  , [ "row-uxzn.74mk.587i", "00000000-0000-0000-A247-A0B2F13C0023", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNMurder and nonnegligent manslaughter2008", "2008-12-31T00:00:00", "2008", "Nashville, TN", "Murder and nonnegligent manslaughter", "76", null ]
+  , [ "row-nuu5-vnyi_42vm", "00000000-0000-0000-2138-D2793B6EC53A", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAMurder and nonnegligent manslaughter2013", "2013-12-31T00:00:00", "2013", "New Orleans, LA", "Murder and nonnegligent manslaughter", "156", null ]
+  , [ "row-7tqg~mk3c-4tfr", "00000000-0000-0000-A646-7E09DF170B0E", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageMurder and nonnegligent manslaughter2008", "2008-12-31T00:00:00", "2008", "Benchmark Average", "Murder and nonnegligent manslaughter", "71", null ]
+  , [ "row-mdud_4ma5.p5ja", "00000000-0000-0000-35D1-B9035B7BF3F7", 0, 1456421062, null, 1456421062, null, "{ }", "Oklahoma City, OKMurder and nonnegligent manslaughter2009", "2009-12-31T00:00:00", "2009", "Oklahoma City, OK", "Murder and nonnegligent manslaughter", "65", null ]
+  , [ "row-3hub~n7yh~g6zn", "00000000-0000-0000-9FDE-B03747F715A0", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCMurder and nonnegligent manslaughter2010", "2010-12-31T00:00:00", "2010", "Raleigh, NC", "Murder and nonnegligent manslaughter", "14", null ]
+  , [ "row-x8tt.jr8q_z92m", "00000000-0000-0000-8B70-4FDC24F6FF9A", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNViolent crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Memphis, TN", "Violent crime rate (per 100,000 population)", "1809", null ]
+  , [ "row-rmin-syhz-3g8b", "00000000-0000-0000-87CB-E72F962A45A8", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLMurder and nonnegligent manslaughter2013", "2013-12-31T00:00:00", "2013", "Tampa, FL", "Murder and nonnegligent manslaughter", "28", null ]
+  , [ "row-6epe-ifp9.m335", "00000000-0000-0000-2421-32D560231EC8", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAMurder and nonnegligent manslaughter2008", "2008-12-31T00:00:00", "2008", "New Orleans, LA", "Murder and nonnegligent manslaughter", "179", null ]
+  , [ "row-pcak-fuq6.3dkb", "00000000-0000-0000-F87F-B62789FFC03F", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCMurder and nonnegligent manslaughter2007", "2007-12-31T00:00:00", "2007", "Raleigh, NC", "Murder and nonnegligent manslaughter", "23", null ]
+  , [ "row-fk7g-dgxr.7wp2", "00000000-0000-0000-743C-CD390860F81F", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageViolent crime rate (per 100,000 population)2009", "2009-12-31T00:00:00", "2009", "Benchmark Average", "Violent crime rate (per 100,000 population)", "1091", null ]
+  , [ "row-573a_ps6a~knbc", "00000000-0000-0000-F03F-AB6F6F320FDD", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCProperty crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "Raleigh, NC", "Property crime rate (per 100,000 population)", "3476", null ]
+  , [ "row-sehv.6pny.figu", "00000000-0000-0000-CC92-FAB88F5E5D03", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLMurder and nonnegligent manslaughter2010", "2010-12-31T00:00:00", "2010", "Tampa, FL", "Murder and nonnegligent manslaughter", "27", null ]
+  , [ "row-6b6t-mrs3_cia2", "00000000-0000-0000-F6AC-47F1AE6FAAFC", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAProperty crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Baton Rouge, LA", "Property crime rate (per 100,000 population)", "4477.149969", null ]
+  , [ "row-tp5j.u578~yfzm", "00000000-0000-0000-777A-687AE78C38C1", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNViolent crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Memphis, TN", "Violent crime rate (per 100,000 population)", "1740.512611", null ]
+  , [ "row-zfkm-hxmj.jekj", "00000000-0000-0000-195A-A918ECD0EC93", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAProperty crime rate (per 100,000 population)2008", "2008-12-31T00:00:00", "2008", "New Orleans, LA", "Property crime rate (per 100,000 population)", "5287", null ]
+  , [ "row-xqpc.r6rx~afm4", "00000000-0000-0000-4103-116865EF67C1", 0, 1456421062, null, 1456421062, null, "{ }", "Baton Rouge, LAMurder and nonnegligent manslaughter2013", "2013-12-31T00:00:00", "2013", "Baton Rouge, LA", "Murder and nonnegligent manslaughter", "49", null ]
+  , [ "row-3zja.z8m8_urdk", "00000000-0000-0000-77A9-937FE9E8DBB4", 0, 1456421062, null, 1456421062, null, "{ }", "Tampa, FLMurder and nonnegligent manslaughter2009", "2009-12-31T00:00:00", "2009", "Tampa, FL", "Murder and nonnegligent manslaughter", "20", null ]
+  , [ "row-t2cg~iej2.mtfb", "00000000-0000-0000-E9A9-758A3B37292B", 0, 1456421062, null, 1456421062, null, "{ }", "Raleigh, NCProperty crime rate (per 100,000 population)2013", "2013-12-31T00:00:00", "2013", "Raleigh, NC", "Property crime rate (per 100,000 population)", "3063", null ]
+  , [ "row-ca3k_d5cv-bvib", "00000000-0000-0000-44B4-3A6F3A01F203", 0, 1456421062, null, 1456421062, null, "{ }", "New Orleans, LAProperty crime rate (per 100,000 population)2007", "2007-12-31T00:00:00", "2007", "New Orleans, LA", "Property crime rate (per 100,000 population)", "7064", null ]
+  , [ "row-bj4n~8sns~hn63", "00000000-0000-0000-E974-D8FD47674D9F", 0, 1456421062, null, 1456421062, null, "{ }", "Memphis, TNProperty crime rate (per 100,000 population)2010", "2010-12-31T00:00:00", "2010", "Memphis, TN", "Property crime rate (per 100,000 population)", "6520", null ]
+  , [ "row-q8m7.yddg-bhzs", "00000000-0000-0000-4472-3A412BF47538", 0, 1456421062, null, 1456421062, null, "{ }", "Nashville, TNMurder and nonnegligent manslaughter2009", "2009-12-31T00:00:00", "2009", "Nashville, TN", "Murder and nonnegligent manslaughter", "79", null ]
+  , [ "row-ww2j~vpqx~5wdb", "00000000-0000-0000-F57C-AC6ABC93CB95", 0, 1456421062, null, 1456421062, null, "{ }", "Atlanta, GAMurder and nonnegligent manslaughter2009", "2009-12-31T00:00:00", "2009", "Atlanta, GA", "Murder and nonnegligent manslaughter", "80", null ]
+  , [ "row-zd45~xbbt_t2g9", "00000000-0000-0000-5BA9-CFBBB7DD7EE5", 0, 1456421062, null, 1456421062, null, "{ }", "Benchmark AverageViolent crime rate (per 100,000 population)2014", "2014-12-31T00:00:00", "2014", "Benchmark Average", "Violent crime rate (per 100,000 population)", "999.516402", null ]
+  , [ "row-dacf_tgah.4ab8", "00000000-0000-0000-61D7-762A6992C7D9", 0, 1456421062, null, 1456421062, null, "{ }", "Miami, FLMurder and nonnegligent manslaughter2009", "2009-12-31T00:00:00", "2009", "Miami, FL", "Murder and nonnegligent manslaughter", "59", null ]
+  , [ "row-xstf~8n6a_ekm3", "00000000-0000-0000-B91A-B6A7897D09DA", 0, 1456421742, null, 1456421742, null, "{ }", "Nashville, TNProperty crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Nashville, TN", "Property crime rate (per 100,000 population)", "5817", null ]
+  , [ "row-7twe~x2yf.kpds", "00000000-0000-0000-327B-D79BCB0C0925", 0, 1456421742, null, 1456421742, null, "{ }", "New Orleans, LAViolent crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "New Orleans, LA", "Violent crime rate (per 100,000 population)", "523", null ]
+  , [ "row-j8bd_t95m_xhmb", "00000000-0000-0000-8796-4BE6E7761313", 0, 1456421742, null, 1456421742, null, "{ }", "Oklahoma City, OKMurder and nonnegligent manslaughter2006", "2006-12-31T00:00:00", "2006", "Oklahoma City, OK", "Murder and nonnegligent manslaughter", "55", null ]
+  , [ "row-nism_d423.bi63", "00000000-0000-0000-DF9A-0475554944B2", 0, 1456421742, null, 1456421742, null, "{ }", "New Orleans, LAMurder and nonnegligent manslaughter2006", "2006-12-31T00:00:00", "2006", "New Orleans, LA", "Murder and nonnegligent manslaughter", "162", null ]
+  , [ "row-vq26~56tz.5f3y", "00000000-0000-0000-A290-6B8835B62FB0", 0, 1456421742, null, 1456421742, null, "{ }", "Oklahoma City, OKViolent crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Oklahoma City, OK", "Violent crime rate (per 100,000 population)", "802", null ]
+  , [ "row-8b4m_fy45-nr5c", "00000000-0000-0000-1B7D-27C2E26FBE76", 0, 1456421742, null, 1456421742, null, "{ }", "Raleigh, NCViolent crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Raleigh, NC", "Violent crime rate (per 100,000 population)", "638", null ]
+  , [ "row-ux37-npuf~v237", "00000000-0000-0000-6701-394A5DD415C0", 0, 1456421742, null, 1456421742, null, "{ }", "Raleigh, NCMurder and nonnegligent manslaughter2006", "2006-12-31T00:00:00", "2006", "Raleigh, NC", "Murder and nonnegligent manslaughter", "19", null ]
+  , [ "row-sydh_nfpc~2bdr", "00000000-0000-0000-3FED-A93AA32592DE", 0, 1456421742, null, 1456421742, null, "{ }", "Baton Rouge, LAViolent crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Baton Rouge, LA", "Violent crime rate (per 100,000 population)", "1403", null ]
+  , [ "row-d2fd~7643.bhxn", "00000000-0000-0000-1F52-98BE038E0CBE", 0, 1456421742, null, 1456421742, null, "{ }", "Nashville, TNViolent crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Nashville, TN", "Violent crime rate (per 100,000 population)", "1527", null ]
+  , [ "row-fd8p~ep4n_pwx7", "00000000-0000-0000-649E-13A7AC916894", 0, 1456421742, null, 1456421742, null, "{ }", "Atlanta, GAMurder and nonnegligent manslaughter2006", "2006-12-31T00:00:00", "2006", "Atlanta, GA", "Murder and nonnegligent manslaughter", "110", null ]
+  , [ "row-f9a4.uedk~cne7", "00000000-0000-0000-2B47-838403E0B010", 0, 1456421742, null, 1456421742, null, "{ }", "Memphis, TNProperty crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Memphis, TN", "Property crime rate (per 100,000 population)", "8368", null ]
+  , [ "row-byhc_bqyg.xz8x", "00000000-0000-0000-74CE-6FF994F824F5", 0, 1456421742, null, 1456421742, null, "{ }", "Baton Rouge, LAProperty crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Baton Rouge, LA", "Property crime rate (per 100,000 population)", "6976", null ]
+  , [ "row-ybuu~b32n~h4sj", "00000000-0000-0000-7F55-2F2AC1B880A3", 0, 1456421742, null, 1456421742, null, "{ }", "Tampa, FLMurder and nonnegligent manslaughter2006", "2006-12-31T00:00:00", "2006", "Tampa, FL", "Murder and nonnegligent manslaughter", "25", null ]
+  , [ "row-dcut_k68w_hauh", "00000000-0000-0000-8846-07238BFB1FCB", 0, 1456421742, null, 1456421742, null, "{ }", "Tampa, FLProperty crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Tampa, FL", "Property crime rate (per 100,000 population)", "5668", null ]
+  , [ "row-8ftc.44ap_k29y", "00000000-0000-0000-3CDB-CCDC9A6153AA", 0, 1456421742, null, 1456421742, null, "{ }", "Nashville, TNMurder and nonnegligent manslaughter2006", "2006-12-31T00:00:00", "2006", "Nashville, TN", "Murder and nonnegligent manslaughter", "80", null ]
+  , [ "row-n4k3.quac.refy", "00000000-0000-0000-AD9E-F9D01AFA4423", 0, 1456421742, null, 1456421742, null, "{ }", "Miami, FLMurder and nonnegligent manslaughter2006", "2006-12-31T00:00:00", "2006", "Miami, FL", "Murder and nonnegligent manslaughter", "77", null ]
+  , [ "row-qgyx-ktdg-yqav", "00000000-0000-0000-A71E-021331CBFD79", 0, 1456421742, null, 1456421742, null, "{ }", "Miami, FLViolent crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Miami, FL", "Violent crime rate (per 100,000 population)", "1509", null ]
+  , [ "row-g686_tvvz.rt7d", "00000000-0000-0000-7DD1-DE58F46DE7C8", 0, 1456421742, null, 1456421742, null, "{ }", "Baton Rouge, LAMurder and nonnegligent manslaughter2006", "2006-12-31T00:00:00", "2006", "Baton Rouge, LA", "Murder and nonnegligent manslaughter", "57", null ]
+  , [ "row-uc94_4jci.gcty", "00000000-0000-0000-7C3D-111A833E91A5", 0, 1456421742, null, 1456421742, null, "{ }", "Oklahoma City, OKProperty crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Oklahoma City, OK", "Property crime rate (per 100,000 population)", "6398", null ]
+  , [ "row-hiqw~uagt~9qu2", "00000000-0000-0000-DFAC-303DE4769684", 0, 1456421742, null, 1456421742, null, "{ }", "New Orleans, LAProperty crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "New Orleans, LA", "Property crime rate (per 100,000 population)", "2825", null ]
+  , [ "row-4id3_mvcs_h25d", "00000000-0000-0000-C251-F9AB92968876", 0, 1456421742, null, 1456421742, null, "{ }", "Miami, FLProperty crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Miami, FL", "Property crime rate (per 100,000 population)", "5163", null ]
+  , [ "row-qgm8~cqaf.59f7", "00000000-0000-0000-CC18-64DAE30D037E", 0, 1456421742, null, 1456421742, null, "{ }", "Tampa, FLViolent crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Tampa, FL", "Violent crime rate (per 100,000 population)", "1158", null ]
+  , [ "row-jttr_k6rr.qrzs", "00000000-0000-0000-8DE0-3CC319E5BEC1", 0, 1456421742, null, 1456421742, null, "{ }", "Raleigh, NCProperty crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Raleigh, NC", "Property crime rate (per 100,000 population)", "3632", null ]
+  , [ "row-64ik.exps-iqze", "00000000-0000-0000-3EC3-52B5FDE9A93F", 0, 1456421742, null, 1456421742, null, "{ }", "Memphis, TNViolent crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Memphis, TN", "Violent crime rate (per 100,000 population)", "1991", null ]
+  , [ "row-f5t3~md9i~6xc6", "00000000-0000-0000-0A03-B4CC96C92424", 0, 1456421742, null, 1456421742, null, "{ }", "Memphis, TNMurder and nonnegligent manslaughter2006", "2006-12-31T00:00:00", "2006", "Memphis, TN", "Murder and nonnegligent manslaughter", "149", null ]
+  , [ "row-stc5.vjp5_tmsb", "00000000-0000-0000-7331-928BAEBE4E52", 0, 1456421742, null, 1456421742, null, "{ }", "Benchmark AverageViolent crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Benchmark Average", "Violent crime rate (per 100,000 population)", "1323", null ]
+  , [ "row-shzw~c6cf_muf8", "00000000-0000-0000-A336-0AF879B16DDA", 0, 1456421742, null, 1456421742, null, "{ }", "Benchmark AverageProperty crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Benchmark Average", "Property crime rate (per 100,000 population)", "6082", null ]
+  , [ "row-3bz5.j6uw-nfvz", "00000000-0000-0000-38E4-AA6E5A21EE78", 0, 1456421742, null, 1456421742, null, "{ }", "Atlanta, GAViolent crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Atlanta, GA", "Violent crime rate (per 100,000 population)", "1554", null ]
+  , [ "row-bnbs~c4cm~wrpz", "00000000-0000-0000-5740-6D16C373ED0E", 0, 1456421742, null, 1456421742, null, "{ }", "Atlanta, GAProperty crime rate (per 100,000 population)2006", "2006-12-31T00:00:00", "2006", "Atlanta, GA", "Property crime rate (per 100,000 population)", "6635", null ]
+  , [ "row-f549_7n38.7dmw", "00000000-0000-0000-F58B-19E3EF42E1A2", 0, 1456421742, null, 1456421742, null, "{ }", "Benchmark AverageMurder and nonnegligent manslaughter2006", "2006-12-31T00:00:00", "2006", "Benchmark Average", "Murder and nonnegligent manslaughter", "69", null ]
+   ]
+  }
