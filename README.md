@@ -13,7 +13,7 @@ This plot depicts the reported cases of murder and negligent manslaughter in the
 ## Rick and Morty Characters
 ![rickandmortycharacterstatus](https://user-images.githubusercontent.com/70280666/138797196-a2d25247-2a72-4bbf-93c1-fae94868bac7.jpg)
 
-On a lighter note, this pie chart displays the status of characters in the TV show Rick and Morty, where possible statuses range from:
+On a lighter note, this pie chart displays the status of characters in the TV show *Rick and Morty*, where possible statuses range from:
 1. *Alive*
 1. *Dead*
 1. *Unknown*
